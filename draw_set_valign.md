@@ -3,7 +3,12 @@
 *Aligns any subsequently drawn text vertically*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+This function is used to align text along the vertical axis and changing the vertical alignment will change the position and direction in which all further text is drawn, with the default value being fa_top.
 
 ## Syntax
 
@@ -15,17 +20,13 @@ void draw_set_valign(alignment valign);
 
 |Argument|Type      |Description       |
 |--------|----------|------------------|
-|valign  |Alignement|Vertical alignment|
+|valign  |Alignment|Vertical alignment|
 
 ## Returns
 
 ```
 N/A
 ```
-
-## Description
-
-This function is used to align text along the vertical axis and changing the vertical alignment will change the position and direction in which all further text is drawn, with the default value being fa_top.
 
 ## Alignment
 |Constant |Alignment                                                                                           |

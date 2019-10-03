@@ -1,6 +1,7 @@
 # instance_destroy([id, perform_event])
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
 
 ## Description

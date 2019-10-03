@@ -3,7 +3,12 @@
 *Enables or disables the draw event.*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+With this function you can choose to enable (true) or disable (false) the draw event for all instances in the game, thus giving you control over how and when things are draw, useful if you wish to implement a "frame skip" technique. Note that this doesn't just prevent instances drawing to the screen, it suppresses the draw event completely meaning that care should be taken since any game logic that is present in that event will not be run either.
 
 ## Syntax
 
@@ -22,10 +27,6 @@ void draw_enable_drawevent(bool enable);
 ```
 N/A
 ```
-
-## Description
-
-With this function you can choose to enable (true) or disable (false) the draw event for all instances in the game, thus giving you control over how and when things are draw, useful if you wish to implement a "frame skip" technique. Note that this doesn't just prevent instances drawing to the screen, it suppresses the draw event completely meaning that care should be taken since any game logic that is present in that event will not be run either.
 
 ## Examples
 

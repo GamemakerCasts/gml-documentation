@@ -3,7 +3,12 @@
 *Switch off in game ads.*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+This function switches off the in-game ads for the given "slot" (as defined in the **Global Game Settings - Advertising Tab**), so that they are no longer displayed.
 
 ## Syntax
 
@@ -20,10 +25,6 @@ void ads_disabled(int slot);
 ## Returns
 
 N/A
-
-## Description
-
-This function switches off the in-game ads for the given "slot" (as defined in the **Global Game Settings - Advertising Tab**), so that they are no longer displayed.
 
 ## Examples
 

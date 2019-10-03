@@ -1,35 +1,36 @@
-# draw_text_ext(float x, float y, string text, float distance, float width)
+# draw_text_ext(real x, real y, string text, real distance, real width)
 
 *Draws a string at a given position with a specific spacing and within a limited area*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+This function will draw text in a similar way to draw_text only now you can set the space between each line of text - should the text occupy more than one line - and limit the width (in pixels) of the string per line so that should any line exceed this value, GameMaker: Studio will automatically split the text to the next line. A value of -1 for the line separation argument will default to a separation based on the height of the "M" character in the chosen font
 
 ## Syntax
 
 ```
-void draw_text_ext(float x, float y, string text, float distance, float width)
+void draw_text_ext(real x, real y, string text, real distance, real width)
 ```
 
 ## Arguments
 
 |Argument|Type  |Description                                                |
 |--------|------|-----------------------------------------------------------|
-|x       |Float |X coordinate                                               |
-|y       |Float |Y coordinate                                               |
+|x       |Real |X coordinate                                               |
+|y       |Real |Y coordinate                                               |
 |text    |String|String to draw                                             |
-|distance|float |Distance in pixels between the lines of text               |
-|width   |float |The maximum width in pixels of the string before a new line|
+|distance|Real |Distance in pixels between the lines of text               |
+|width   |Real |The maximum width in pixels of the string before a new line|
 
 ## Returns
 
 ```
 N/A
 ```
-
-## Description
-
-This function will draw text in a similar way to draw_text only now you can set the space between each line of text - should the text occupy more than one line - and limit the width (in pixels) of the string per line so that should any line exceed this value, GameMaker: Studio will automatically split the text to the next line. A value of -1 for the line separation argument will default to a separation based on the height of the "M" character in the chosen font
 
 ## Examples
 
