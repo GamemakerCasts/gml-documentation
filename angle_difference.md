@@ -1,30 +1,31 @@
-# angle_difference(float angle_1, float angle_2)
+# angle_difference(real angle_1, real angle_2)
 
 *Returns the difference between two angles*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+This function will return the smallest angle difference between two angles as a value between -180 and 180 degrees (where a positive angle is anti-clockwise and a negative angle clockwise).
 
 ## Syntax
 
 ```
-float angle_difference(float angle_1, float angle_2);
+real angle_difference(real angle_1, real angle_2);
 ```
 
 ## Arguments
 
 |Argument|Type |Description     |
 |--------|-----|----------------|
-|angle_1 |Float|The first angle |
-|angle_2 |Float|The second angle|
+|angle_1 |Real|The first angle |
+|angle_2 |Real|The second angle|
 
 ## Returns
 
-Float
-
-## Description
-
-This function will return the smallest angle difference between two angles as a value between -180 and 180 degrees (where a positive angle is anti-clockwise and a negative angle clockwise).
+Real
 
 ## Examples
 

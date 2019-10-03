@@ -1,6 +1,7 @@
 # instance_find(object, [index])
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
 
 ## Description

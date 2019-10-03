@@ -1,6 +1,7 @@
 # instance_exists(object)
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
 
 ## Description

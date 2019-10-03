@@ -5,6 +5,10 @@
 ### Supported Game Maker Language
 `Game Maker Language 2`
 
+## Description
+
+This function is used to align text along the horizontal axis and changing the horizontal alignment will change the position and direction in which all further text is drawn with the default value being fa_left.
+
 ## Syntax
 
 ```
@@ -22,10 +26,6 @@ void draw_set_halign(alignment halign);
 ```
 N/A
 ```
-
-## Description
-
-This function is used to align text along the horizontal axis and changing the horizontal alignment will change the position and direction in which all further text is drawn with the default value being fa_left.
 
 ## Alignment
 |Constant |Alignment                                                                                           |

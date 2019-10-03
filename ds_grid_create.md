@@ -3,12 +3,19 @@
 *Creates a new grid.*
 
 ### Supported Game Maker Language
+
 `Game Maker Language 2`
+
+## Description
+
+With this function you can create a new ds_grid data structure of the specified cell width and height. This function returns an id which must be used in all further functions that deal with this ds_grid.
+
+All of the values in the grid will be automatically set to `0`
 
 ## Syntax
 
 ```
-integer ds_grid_create(int width, int height);
+integer ds_grid_create(integer width, integer height);
 ```
 
 ## Arguments
@@ -21,12 +28,6 @@ integer ds_grid_create(int width, int height);
 ## Returns
 
 Integer
-
-## Description
-
-With this function you can create a new ds_grid data structure of the specified cell width and height. This function returns an id which must be used in all further functions that deal with this ds_grid.
-
-All of the values in the grid will be automatically set to `0`
 
 ## Examples
 
