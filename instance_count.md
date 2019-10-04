@@ -28,12 +28,16 @@ Integer
 
 #### Example 1
 
-*Will create instances of `obj_Star` on the `Instances` layer until the total instance count reached 100*
+> If there is less than 100 instances in the room, then create a instance of obj_Star and keep creating them until there are 100 instances total.
+
 ```
+/// Step event
 if(instance_count < 100) {
-  var difference = 100 - instance_count;
-  while(--differences > 0) {
-    instance_create_layer(random(room_width), random(room_height), "Instances", obj_Star);
-  }
+  var random_x = random(room_width);
+  var random_y = random(room_height);
+  
+  instance_create_layer(random_x, random_y, "Instances", obj_Star);
 }
 ```
+
+![placeholder](https://via.placeholder.com/400x200/9ABCA7/000000/?text=Click+to+run+example)
