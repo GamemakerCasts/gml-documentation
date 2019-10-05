@@ -1,4 +1,4 @@
-# ads_enabled(int x, int y, int slot)
+# ads_enabled(real x, real y, int slot)
 
 *This code enables ads in your game room.*
 
@@ -13,15 +13,15 @@ With this function you can display selected ads at the given position within the
 ## Syntax
 
 ```
-void ads_enabled(int x, int y, int slot);
+void ads_enabled(real x, real y, int slot);
 ```
 
 ## Arguments
 
 |Argument|Type   |Description                         |
 |--------|-------|------------------------------------|
-|x       |Integer|X position in the room              |
-|y       |Integer|Y position in the room              |
+|x       |Real|X position in the room              |
+|y       |Real|Y position in the room              |
 |slot    |Integer|The advert "slot" to display (0 - 4)|
 
 ## Returns
@@ -34,7 +34,8 @@ N/A
 
 #### Example 1
 
-*Enable the ad slot 1 in position (0, 0)*
+> Enables the ad slot 1 in position (0, 0)*
+
 ```
 ads_enable(0, 0, 1);
 ```

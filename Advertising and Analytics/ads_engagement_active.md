@@ -30,14 +30,12 @@ boolean
 
 #### Example 1
 
-*code checks to see if there is currently and interstitial ad active and if not, then it will check to see if one is available and that the variable "show" returns true. If both conditions are met, an interstitial ad will be launched and the variable set to false, so that when the add is finished the check will take the player to the next room.*
+> Check to see if there is already an advertisement active, if there is no then launch an advertisement
+
 ```
 if(! ads_engagement_active()) {
-  if(ads_engagement_available() && show) {
+  if(ads_engagement_available()) {
     ads_engagement_launch();
-    show = false;
-  } else {
-    room_goto(rm_MainMenu);
   }
 }
 ```

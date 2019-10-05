@@ -1,4 +1,4 @@
-# ads_disable(int slot)
+# ads_disable(integer slot)
 
 *Switch off in game ads.*
 
@@ -30,7 +30,8 @@ N/A
 
 #### Example 1
 
-*Switches off ther in game ads for "slot" 0 (zero) if the variable `purchased` returns `true`*
+> Switches off ther in game ads for "slot" 0 (zero) if the variable `purchased` returns `true`
+
 ```
 if(purchased) {
   ads_disabled(0);
